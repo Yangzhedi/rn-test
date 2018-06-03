@@ -12,6 +12,8 @@ import {
   BackHandler,
   ToastAndroid
 } from 'react-native';
+import Svg from './src/svg'
+import App from "./src/App";
 
 type Props = {};
 
@@ -38,11 +40,7 @@ export default class AndroidApp extends Component<Props> {
 
   render() {
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to hinataApp!
-        </Text>
-      </View>
+      <App />
     );
   }
 }

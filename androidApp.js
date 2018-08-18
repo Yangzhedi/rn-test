@@ -12,7 +12,7 @@ import {
   BackHandler,
   ToastAndroid
 } from 'react-native';
-import Svg from './src/svg'
+// import Svg from './src/svg'
 import App from "./src/App";
 
 type Props = {};

@@ -7,9 +7,11 @@
     "test": "jest"
   },
   "dependencies": {
+    "pretty-format": "^23.5.0",
     "react": "16.3.1",
     "react-native": "0.55.4",
     "react-native-svg": "^5.1.7",
+    "react-native-vector-icons": "^5.0.0",
     "react-navigation": "^2.0.4"
   },
   "devDependencies": {

@@ -11,26 +11,20 @@ import {
   View
 } from 'react-native';
 
+import App from "./src/App-iostest";
+
 type Props = {};
 
-export default class App extends Component<Props> {
+export default class iOSApp extends Component<Props> {
   render() {
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to hinataApp!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit App.js with Platform;
-        </Text>
-        <Text style={styles.instructions}>
-          Press Cmd+R to reload,\n Cmd+D or shake for dev menu
-        </Text>
-      </View>
+      <App/>
     );
   }
 }
 
 const styles = StyleSheet.create({
-
+  welcome:{
+    color: 'red'
+  }
 });
